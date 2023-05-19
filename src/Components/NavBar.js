@@ -8,9 +8,9 @@ function NavBar() {
       <div className="title-container">
         <p className="nav-circle"></p>
         <NavLink to="/">
-          <p className="my-name">CODE ON CUE</p>
+          <p className="my-name"> DEVELOP ON CUE</p>
         </NavLink>
-        <p className="my-title">Dev</p>
+        <p className="my-title"></p>
       </div>
       <ul className="nav-links">
         <li>

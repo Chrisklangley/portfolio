@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import AboutMe from "./AboutMe";
 import Resume from "./Resume";
 import Project from "./Project";
 import Contact from "./Contact";
 import "./Intro.css";
+
 function Intro() {
   return (
     <div className="scroll">
@@ -44,6 +45,10 @@ function Intro() {
           </div>
         </div>
       </div>
+      <AboutMe />
+      <Resume />
+      <Project />
+      <Contact />
     </div>
   );
 }

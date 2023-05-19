@@ -91,3 +91,6 @@
   background-color: #f1faee;
   transition: background-color 0.4s ease-in-out;
 }
+.scroll-button {
+  position: absolute;
+}
