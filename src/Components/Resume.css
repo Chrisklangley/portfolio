@@ -1,0 +1,56 @@
+.resume {
+  /* border: solid red 1px; */
+  height: 1800px;
+}
+
+.resume h1 {
+  margin-left: 300px;
+  font-size: 42px;
+  margin-bottom: 40px;
+  /* border: solid red 1px; */
+}
+
+.skills,
+.Work,
+.education {
+  align-self: center;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  margin: 0 50px 0 50px;
+}
+.resume h2 {
+  font-size: 26px;
+}
+
+.resume h5 {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.work-details {
+  /* border: solid red 1px; */
+  width: 40vw;
+  padding-left: 250px;
+}
+
+.n3 {
+  padding-bottom: 30px;
+}
+
+.Work h2 {
+  margin-left: 300px;
+}
+
+.date-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education {
+  border: none;
+  margin-left: 400px;
+}
