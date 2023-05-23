@@ -53,7 +53,7 @@ function Footer() {
       </div>
       {showScrollButton && (
         <div className="scroll-button" onClick={handleScroll}>
-          <BiArrowToTop className="scroll-icon" /> Scroll to Top
+          <BiArrowToTop className="scroll-icon" />
         </div>
       )}
     </div>

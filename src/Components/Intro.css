@@ -107,6 +107,16 @@
 
 @media (min-width: 200px) and (max-width: 475px) {
   .about-me {
+    /* border: solid red 1px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+  }
+  .about-nav {
+    /* border: 1px solid red; */
+    width: 350px;
     margin-left: 40px;
   }
 }
