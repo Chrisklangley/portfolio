@@ -1,56 +1,76 @@
 .resume {
-  /* border: solid red 1px; */
-  height: 1600px;
+  height: auto;
+  padding: 40px;
 }
 
 .resume h1 {
-  margin-left: 300px;
+  text-align: center;
   font-size: 42px;
   margin-bottom: 40px;
-  /* border: solid red 1px; */
 }
 
 .skills,
 .Work,
 .education {
-  align-self: center;
-
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
-  border-bottom: 1px solid rgb(0, 0, 0);
-  margin: 0 50px 0 50px;
+  margin: 40px 0;
 }
+
 .resume h2 {
   font-size: 26px;
+  margin-bottom: 20px;
 }
 
 .resume h5 {
   font-size: 18px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .work-details {
-  /* border: solid red 1px; */
-  width: 40vw;
-  padding-left: 250px;
+  width: 100%;
+  max-width: 800px;
+  padding: 0 40px;
 }
 
 .n3 {
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .Work h2 {
-  margin-left: 300px;
+  text-align: center;
 }
 
 .date-title {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 .education {
-  border: none;
   margin-left: 400px;
+  padding-bottom: 40px;
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
+  .resume h1 {
+    margin-left: 0;
+    font-size: 36px;
+  }
+
+  .skills,
+  .Work,
+  .education {
+    margin: 20px 0;
+  }
+
+  .work-details {
+    padding: 0;
+  }
+
+  .education {
+    margin-left: 0;
+  }
 }
