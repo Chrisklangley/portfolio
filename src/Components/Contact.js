@@ -13,6 +13,7 @@ function Contact() {
       <div>
         <h1>Contact</h1>
         <p>Looking forward to hearing from you</p>
+        <h2>Email: christopherlangley.dev@gmail.com</h2>
       </div>
       <div>
         <form

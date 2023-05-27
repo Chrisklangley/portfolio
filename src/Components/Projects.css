@@ -28,6 +28,11 @@
   padding: 40px;
 }
 
+iframe {
+  width: 491px;
+  height: 331px;
+}
+
 @media (max-width: 768px) {
   .Project-tab h1 {
     font-size: 36px;
@@ -48,5 +53,9 @@
   .Project-tab {
     margin-top: 40px;
     padding: 20px;
+  }
+  iframe {
+    width: 345px;
+    height: 215px;
   }
 }

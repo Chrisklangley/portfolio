@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+
 import AboutMe from "./AboutMe";
 import Resume from "./Resume";
 import Project from "./Project";
@@ -23,32 +24,40 @@ function Intro() {
               Full Stack <br />
               React Developer👋🏿
             </h1>
-            <p>a bit about me</p>
+            <p className="sub">a bit about me</p>
             <p>
               hey, im Christopher Langley. A passionate Full Stack React
               developer eager to bring projects to life.
             </p>
             <div className="about-nav">
-              <Link to="/about">
+              <a href="#about">
                 <div className="about">About Me</div>
-              </Link>
-              <Link to="/resume">
+              </a>
+              <a href="#resume">
                 <div className="Resume">Resume</div>
-              </Link>
-              <Link to="/projects">
+              </a>
+              <a href="#projects">
                 <div className="Projects">Projects</div>
-              </Link>
-              <Link to="/contact">
+              </a>
+              <a href="#contact">
                 <div className="Contact">Contact</div>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <AboutMe />
-      <Resume />
-      <Project />
-      <Contact />
+      <div id="about">
+        <AboutMe />
+      </div>
+      <div id="resume">
+        <Resume />
+      </div>
+      <div id="projects">
+        <Project />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </div>
   );
 }

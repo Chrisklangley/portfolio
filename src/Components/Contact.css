@@ -15,6 +15,9 @@
 h1 {
   /* margin-left: 300px; */
 }
+.contact h2 {
+  font-size: 20px;
+}
 
 form {
   height: 479px;
@@ -67,7 +70,7 @@ button {
   border-radius: 50%;
   margin-left: 5px;
   border: 1px solid black;
-  background-color: #e63946;
+  background-color: #459d67;
   font-size: 24px;
 }
 
