@@ -110,6 +110,9 @@
 }
 
 @media (min-width: 200px) and (max-width: 475px) {
+  .about-me h1 {
+    font-size: 40px;
+  }
   .about-me {
     /* border: solid red 1px; */
     display: flex;
