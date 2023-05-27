@@ -8,7 +8,7 @@ function Footer() {
   const [showScrollButton, setShowScrollButton] = useState(false);
 
   const handleScroll = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 60, behavior: "smooth" });
   };
 
   const handleScrollVisibility = () => {
