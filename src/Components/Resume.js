@@ -5,6 +5,10 @@ function Resume() {
     <div className="resume">
       <div className="resume">
         <h1>Resume</h1>
+        {/* <a href="./Resume.pdf" download="portfolio.pdf">
+          Download my Portfolio
+        </a> */}
+
         <div className="skills">
           <h2>Skills</h2>
           <div>
