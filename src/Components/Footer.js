@@ -21,7 +21,6 @@ function Footer() {
     }
   };
 
-  // Add event listener to handle scroll visibility on component mount
   useEffect(() => {
     window.addEventListener("scroll", handleScrollVisibility);
     return () => {
