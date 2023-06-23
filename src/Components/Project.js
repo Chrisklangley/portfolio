@@ -20,6 +20,7 @@ function Project() {
                 className="git-link"
                 target="_blank"
                 href="https://github.com/Chrisklangley/Specs-Capstone"
+                rel="noreferrer"
               >
                 {" "}
                 github <AiFillGithub />
@@ -44,6 +45,7 @@ function Project() {
                   className="git-link"
                   target="_blank"
                   href="https://github.com/Chrisklangley/expenses-react"
+                  rel="noreferrer"
                 >
                   {" "}
                   github <AiFillGithub />
@@ -52,6 +54,7 @@ function Project() {
                   target="_blank"
                   href="https://expenses2023.herokuapp.com/"
                   className="demo-link"
+                  rel="noreferrer"
                 >
                   {" "}
                   live demo <FaDev />
