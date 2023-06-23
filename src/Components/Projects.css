@@ -59,3 +59,27 @@ iframe {
     height: 215px;
   }
 }
+.git-link,
+.demo-link {
+  font-size: 30px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  margin-bottom: 10px;
+  /* border: 1px; */
+}
+
+.git-link:hover,
+.demo-link:hover {
+  color: #459d67;
+}
+.sweep {
+  margin-bottom: 120px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
