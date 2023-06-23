@@ -50,7 +50,7 @@ function Project() {
                   {" "}
                   github <AiFillGithub />
                 </a>
-                <a
+                {/* <a
                   target="_blank"
                   href="https://expenses2023.herokuapp.com/"
                   className="demo-link"
@@ -58,7 +58,7 @@ function Project() {
                 >
                   {" "}
                   live demo <FaDev />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
