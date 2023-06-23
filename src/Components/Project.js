@@ -1,7 +1,8 @@
 import React from "react";
 import "./Projects.css";
 import { AiFillGithub } from "react-icons/ai";
-import { FaDev } from "react-icons/fa";
+// eslint - disable - next - line;
+// import { FaDev } from "react-icons/fa";x
 
 function Project() {
   return (
