@@ -35,7 +35,7 @@ function Project() {
             allowfullscreen
           ></iframe>
         </div>
-        <div className="project-container sweep">
+        {/* <div className="project-container sweep">
           <div className="proj">
             <h2> Project #1: Expense Tracker </h2>
             <p>A react application that tracks a users Expenses</p>
@@ -69,7 +69,7 @@ function Project() {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-        </div>
+        </div> */}
       </div>
     </div>
   );
