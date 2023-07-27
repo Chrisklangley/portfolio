@@ -1,14 +1,20 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Resume.css";
 function Resume() {
+  const navigate = useNavigate();
   return (
     <div className="resume">
       <div className="resume">
         <h1>Resume</h1>
-        {/* <a href="./Resume.pdf" download="portfolio.pdf">
-          Download my Portfolio
-        </a> */}
-
+        <a
+          className="resume-link"
+          href="https://docs.google.com/document/d/e/2PACX-1vT54IfajKClFvOEN4owUQB8xW1nFA6WEBi14qOVf7Kxck6TE_mRvCnuTUI7eJ_P1gbkQIvJjcKyx_7j/pub"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          view resume document
+        </a>
         <div className="skills">
           <h2>Skills</h2>
           <div>
